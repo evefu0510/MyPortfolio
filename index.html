@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <!-- =====BOX ICONS===== -->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <title>Evelyn Fu Portfolio</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">EVELYN FU</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                        <li class="nav__item"><a href="reference.html" target="_blank" class="nav__link">References</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <audio controls autoplay>
+                <source src="./assets/music/butterfly.mp3" type="audio/mpeg">
+            </audio>
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hey there! ;)<br>This is <span class="home__title-color">Evelyn Fu</span></h1>
+                        <a href="#" class="button" id="contactButton">Contact</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/yijun-fu-678824194/"  target="_blank" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/evefu0510"  target="_blank" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                    <a href="https://www.instagram.com/evefu0510?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr"  target="_blank" class="home__social-icon"><i class='bx bxl-instagram'></i></a>
+                </div>
+
+                <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                            <image class="home__blob-img" x="0" y="-125" href="assets/img/profile3.jpg" alt="Eve-Profile"/>
+                        </g>
+                    </svg>
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/profile2.jpg" alt="Eve-graduate">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">Something about myself...</h2>
+                        <p class="about__text">I am a first-class master’s graduate in Digital Asset and Media Management from <b><a href="https://www.kcl.ac.uk/about" target="_blank">King’s College London, UK (Ranked 35th in the world)</a></b>, currently enrolled in the Computer Science program at Georgian College. My current GPA is 91. <br><br>During 2.5 years of working experience at <b>Philips</b> and contributing to <b>TikTok</b> as a data analyst, I engaged with extensive data and collaborated with many brilliant and friendly tech team colleagues. This experience fueled my deep fascination with technology and data science, ultimately leading me to make a career pivot. I am now dedicated to pursuing a path as a developer.</p>
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <div class="skills__container bd-grid">
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-python skills__icon'></i>
+                            <span class="skills__name">PYTHON (KEEP LEARNING...)</span>
+                        </div>
+                        <div class="skills__bar skills__python">
+                        </div>
+                        <div>
+                            <span class="skills__percentage">85%</span>
+                        </div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-java skills__icon'></i>
+                            <span class="skills__name">JAVA (KEEP LEARNING...)</span>
+                        </div>
+                        <div class="skills__bar skills__java">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">85%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxs-data skills__icon' ></i>
+                            <span class="skills__name">MYSQL (KEEP LEARNING...)</span>
+                        </div>
+                        <div class="skills__bar skills__mysql">
+                        </div>
+                        <div>
+                            <span class="skills__percentage">85%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxs-objects-vertical-bottom skills__icon'></i>
+                            <span class="skills__name">DATA ANALYSIS</span>
+                        </div>
+                        <div class="skills__bar skills__data-analysis">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">95%</span>
+                        </div>
+                    </div>
+
+                    <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-html5 skills__icon'></i>
+                                <span class="skills__name">HTML5</span>
+                            </div>
+                            <div class="skills__bar skills__html">
+                            </div>
+                            <div>
+                                <span class="skills__percentage">95%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-css3 skills__icon'></i>
+                                <span class="skills__name">CSS</span>
+                            </div>
+                            <div class="skills__bar skills__css">
+                            </div>
+                            <div>
+                                <span class="skills__percentage">95%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-javascript skills__icon' ></i>
+                                <span class="skills__name">JAVASCRIPT (KEEP LEARNING...)</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                            </div>
+                            <div>
+                                <span class="skills__percentage">70%</span>
+                            </div>
+                        </div>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bx-laptop skills__icon'></i>
+                            <span class="skills__name">C# (KEEP LEARNING...)</span>
+                        </div>
+                        <div class="skills__bar skills__csharp">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">75%</span>
+                        </div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxs-cog skills__icon'></i>
+                            <span class="skills__name">ASP.NET (KEEP LEARNING...)</span>
+                        </div>
+                        <div class="skills__bar skills__asp">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">70%</span>
+                        </div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-c-plus-plus skills__icon'></i>
+                            <span class="skills__name">C++</span>
+                        </div>
+                        <div class="skills__bar skills__cplusplus">
+                        </div>
+                        <div>
+                            <span class="skills__percentage">80%</span>
+                        </div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-microsoft skills__icon'></i>
+                            <span class="skills__name">MICROSOFT OFFICE</span>
+                        </div>
+                        <div class="skills__bar skills__MS">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">95%</span>
+                        </div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxs-paint skills__icon'></i>
+                            <span class="skills__name">COMMUNICATION & LANGUAGES</span>
+                        </div>
+                        <div class="skills__bar skills__cl">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">95%</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== Project =====-->
+            <section class="projects section" id="projects">
+                <h2 class="section-title">Projects</h2>
+                <div class="projects__container bd-grid">
+                    <a href="https://github.com/evefu0510/JAVA"  target="_blank" class="work__img">
+                        <img src="assets/img/JAVA.jpg" alt="Eve-JAVA">
+                        <p>Java is my <b>favorite</b> programming language. It's more logical and precise than other languages. There are four projects in the repository with classes, methods, arrays, inheritance, polymorphism, interfaces, and other OOP concepts. I got an <b>88</b> in this course.</p>
+                    </a>
+
+                    <a href="https://github.com/evefu0510/Python_music-project" target="_blank" class="work__img">
+                        <img src="assets/img/PYTHON.jpg" alt=Eve-python">
+                        <p>This project is a music application with searching, deleting, adding to favorites, ranking and genre functions. I have also attached a project report that includes descriptions of functions and solution workings. As the <b>group leader</b>, we received <b>full marks</b> for this project.</p>
+                    </a>
+                    <a href="https://github.com/evefu0510/MySQL"  target="_blank" class="work__img">
+                        <img src="assets/img/MYSQL.jpg" alt="Eve-mysql">
+                        <p>
+                            This repository covers four projects, emphasizing relational database skills such as statement creation, ERD design, normalization, ACID properties, primary & foreign keys, data manipulation and advanced techniques. I ranked in the <b>top 5%</b> in this course.</p>
+                    </a>
+                    <a href="https://evefu0510.github.io/CSS_main_project/" target="_blank" class="work__img">
+                        <img src="assets/img/CSS.jpg" alt="Eve-CSS">
+                        <p>The website I designed is a real jewelry brand called Real Me. The inspiration for the webpage design comes from top-tier luxury brands. I am also the founder of this brand. It includes Home, Product, Contact, and About sections. I received <b>a perfect score of 100</b> in this course.</p>
+                    </a>
+                    <a href="https://evefu0510.github.io/HTML_Nintendo/" target="_blank" class="work__img">
+                        <img src="assets/img/HTML.jpg" alt="Eve-HTML">
+                        <p>
+                            This old-school website, created with my friend Alex, showcases effective navigation, accessibility, and stylish typography. It adapts to various screens, features optimized graphics, follows coding best practices, and includes clear commenting, formatting, and proper attribution.</p>
+                    </a>
+                    <a href="https://evefu0510.github.io/javascript_assignment1/" target="_blank" class="work__img">
+                        <img src="assets/img/JS.jpg" alt="Eve-JS">
+                        <p>
+                            In this JavaScript project, my task is to add 5 buttons that select random phrases from arrays to create sentences with nouns, verbs, adjectives, and settings. Users can click the buttons to build a text string, introducing an interactive storytelling element.</p>
+                    </a>
+                    <a href="https://github.com/evefu0510/Csharp_main_project" target="_blank" class="work__img">
+                        <img src="assets/img/CSHARP.jpg" alt="Eve-Csharp">
+                        <p>
+                            I developed a C# text-based adventure game with dynamic storytelling, turn-based combat, and weapon selection. Players navigate a castle, battle a dragon, and make critical choices. Completing the game unlocks a hidden story path. I achieved <b>full marks</b> in this project. </p>
+                    </a>
+                    <a href="https://github.com/evefu0510/COMP2084ASP.NET" target="_blank" class="work__img">
+                        <img src="assets/img/ASP.NET.jpg" alt="Eve-ASP.NET">
+                        <p>This repository covers ASP.NET projects I have learnt in this semester. It emphasizes server-side scripting and architecture for web app development, including CRUD, authentication, user session management and object creation using classes, properties, methods, and events.</p>
+                    </a>
+                    <a href="https://www.tinkercad.com/things/7vKYi0k2nYL-final-projectfuyijun200552722" target="_blank" class="work__img">
+                        <img src="assets/img/C++.jpg" alt="Eve-Cplusplus">
+                        <p>This is an Arduino-based home automation system, incorporating specific sensors, an RGB LED, and a servo motor. The IR remote-controlled system includes features such as temperature display, RGB lighting, servo movement, gas leak detection with LCD feedback etc. I achieved a score of <b>91</b>.</p>
+                    </a>
+                </div>
+            </section>
+
+            <!--===== Work =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Work</h2>
+                <div class="work__container bd-grid">
+                    <div>
+                        <a href="https://www.philips.com/a-w/about.html" class="work__img" target="_blank">
+                            <img src="assets/img/Phillips-Logo.png" alt="philips-logo">
+                        </a>
+                    </div>
+                    <div>
+                        <h2>Management Trainee</h2>
+                        <p>Koninklijke Philips N.V.</p>
+                        <ul>
+                            <li>• Managed D2C TIKTOK Store, leveraging data for sales growth from $0 to $1 million.</li>
+                            <li>• Engineered order management system, integrating with Alibaba and ByteDance backends for data-driven decisions.</li>
+                            <li>• Optimized D2C stores with data analytics, transforming from B2B to B2C and enhancing user experience.</li>
+                            <li>• Documented workflows for data-driven efficiency in order management.</li>
+                            <li>• Collaborated cross-functionally to identify growth opportunities.</li>
+
+                            <li>• Launched products, conducted training, and managed online store decoration.</li>
+                            <li>• Produced competitor reports by monitoring and analyzing marketing activities for strategic decisions.</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h2>Tiktok Data Analyst (Intern)</h2>
+                        <p>ByteDance Ltd.</p>
+                        <ul>
+                            <li>•   Conducted in-depth data analysis of TikTok influencers, identifying high-performers and optimizing product recommendations for market success.</li>
+                            <li>•   Used statistical modeling and trend analysis for audience engagement and market insights.</li>
+                            <li>•	Employed data visualization for effective communication and informed decision-making.</li>
+                            <li>•	Maintained a robust influencer performance database for accurate decision-making.</li>
+                            <li>•	Collaborated across teams to integrate data-driven approaches, contributing to successful TikTok e-commerce campaigns. </li>
+                        </ul>
+
+                    </div>
+                    <div>
+                        <a href="https://www.bytedance.com/en/" class="work__img" target="_blank">
+                            <img src="assets/img/tiktok.png" alt="tiktok-logo">
+                        </a>
+                    </div>
+
+                    <div>
+                        <a href="https://www.wearesaatchi.com/about-us/" class="work__img" target="_blank">
+                            <img src="assets/img/S&S.png" alt="s&s-logo">
+                        </a>
+                    </div>
+                    <div>
+                        <h2>Digital Media Planner (Intern)</h2>
+                        <p>Saatchi & Saatchi</p>
+                        <ul>
+                            <li>• Monitored competitor media investments for strategic decisions in Tmall promotion campaigns.</li>
+                            <li>• Analyzed media buying data using tools like ADpower, iResearch, and OOH systems.</li>
+                            <li>• Proficient in relational database management, generating competitor reports weekly for Tmall Group.</li>
+                            <li>• Utilized advanced data analytics to extract meaningful patterns for optimal media investment strategies.</li>
+                            <li>• Applied data-driven approaches to assess performance data and customer profiles, contributing to targeted Tmall promotion strategies.</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h2>Tech team member (Volunteer)</h2>
+                        <p>Westside Evangelical Lutheran Church</p>
+                    </div>
+                    <div>
+                        <a href="https://www.westsidelutheran.ca/about" class="work__img" target="_blank">
+                            <img src="assets/img/welc2.png" alt="welc-logo">
+                        </a>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+                <div class="contact__container bd-grid">
+                    <form action="" class="contact__form">
+                        <p class="contact__input"><b>Name: </b>&nbsp;Yijun(Evelyn) Fu</p>
+                        <p class="contact__input"><b>Email: </b>&nbsp;evefu.510@gmail.com</p>
+                        <p class="contact__input"><b>Phone: </b>&nbsp;249-989-5988</p>
+                        <p class="contact__input"><b>Address: </b>&nbsp;89 Bernick Drive, Barrie, Ontario, Canada, L4M 5C1
+                        </p>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Evelyn Fu</p>
+            <div class="footer__social">
+                <a href="https://www.linkedin.com/in/yijun-fu-678824194/"  target="_blank" class="footer__icon"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/evefu0510"  target="_blank" class="footer__icon"><i class='bx bxl-github' ></i></a>
+                <a href="https://www.instagram.com/evefu0510?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr"  target="_blank" class="footer__icon"><i class='bx bxl-instagram'></i></a>
+            </div>
+            <p class="footer__copy">&#169; Yijun(Evelyn) Fu. All rigths reserved</p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
