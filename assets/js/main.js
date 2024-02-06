@@ -66,7 +66,6 @@ function displayInfo(){
     console.log("Check if it is work");
     var text = "Name: Yijun (Evelyn) Fu\n" +
         "Email: evefu.510@gmail.com\n" +
-        "Tel: 249-989-5988\n" +
-        "Address: 89 Bernick Drive, Barrie, Ontario, Canada, L4M 5C1\n";
+        "Tel: 249-989-5988\n";
     alert(text);
 }
